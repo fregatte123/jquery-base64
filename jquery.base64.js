@@ -141,6 +141,9 @@ jQuery.base64 = ( function( $ ) {
 
 
   function _encode( s ) {
+    //lixun modify for utf8
+    s = unescape(encodeURIComponent(s));
+    //lixun end
     if ( arguments.length !== 1 ) {
       throw "SyntaxError: exactly one argument required";
     }

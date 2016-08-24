@@ -1,0 +1,7 @@
+{
+  "name": "jquery-base64-lixun-cn",
+  "version": "0.0.1",
+   "main": [
+      "./jquery.base64.js"
+  ]
+}
